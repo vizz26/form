@@ -1,0 +1,92 @@
+
+
+
+*{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body{
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    margin:0;  
+}
+
+.container{
+    width: 400px;
+    background-color:solid transparent ;
+    border-radius: 4px;
+    box-shadow: #000000;
+     
+}
+
+
+
+
+.form{
+    padding: 20px 40px;
+    background-color: var(--form-bg);
+    border-radius: var(--border-radius);
+    text-align: center;
+    color:rgb(255, 255, 255);
+    width: 100%;
+    max-width: var(--form-max-width);
+}
+
+
+
+.form-control{
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.form-control lable {
+    display: inline-block;
+    margin-bottom:5px;
+}
+.form-control input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border:2px solid #1a1919;
+}
+
+.form-control.success input{
+    border:2px solid rgb(26, 167, 26);
+}
+.form-control.error input{
+    border:2px solid rgb(228, 29, 22);
+}
+.form-control small{
+    position:absolute;
+    margin: 3px;
+    visibility: hidden;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+
+button{
+    background-color: rgb(3, 0, 3);
+    color:#fff;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius:4px;
+    border:2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
